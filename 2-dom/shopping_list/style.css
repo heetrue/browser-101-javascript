@@ -1,3 +1,59 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e0e0e0;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  font-family: inherit;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.shopping-list {
+  display: flex;
+  flex-direction: column;
+  jusitfy-contents: space-between;
+  align-items: center;
+  position: relative;
+  width: 360px;
+  height: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.list-items {
+  width: 100%;
+  height: 100%;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+  ailgn-items: center;
+  position: absolute;
+  bottom: -30px;
+  width: 60px;
+  height: auto;
+  padding: 16px;
+  border-radius: 100px;
+  background-color: #28df99;
 }
