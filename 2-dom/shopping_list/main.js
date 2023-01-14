@@ -15,7 +15,9 @@ const header = document.createElement('header');
 shoppingList.insertBefore(header, ul);
 
 header.innerHTML = `
-    <span>${date}</span>
-    <span>${month}</span>
-    <span>${year}</span>
+    <span class="date">${date}</span>
+    <div class="month-year">
+      <span>${month}</span>
+      <span>${year}</span>
+    </div>
 `;
